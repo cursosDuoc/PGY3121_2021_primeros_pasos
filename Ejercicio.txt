@@ -1,0 +1,12 @@
+Ejercicio - Pagina HTML básica
+
+Este ejercicio es individual.
+Para compartir en la clase del Miercoles 24 de Marzo de 2021.
+
+- Seleccione un destino turistico nacional, y cree un documento
+HTML informativo del destino.
+- Debe contener 1 titulo, al menos 3 parrafos, 4 imagenes y 2 links
+relevantes.
+- Debe contener elementos de estilo css ( cambio de color, de tipo 
+de letra, de tamaño de letra, etc)
+- Debe validar su trabajo en validator.w3.org , hasta lograr 0 errores

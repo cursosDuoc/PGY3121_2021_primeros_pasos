@@ -1,0 +1,39 @@
+/* 
+primero.css - hoja de estilo para nuestra primera pagina
+La idea: el HTML, el css en otro.
+Muy importante para fines practicos, pq con frecuencia es trabajo
+de dos personas distintas.
+Muy frecuente CSS - pega de diseñador
+*/
+
+body{
+    background-color: aquamarine; 
+    /* puedo usar colores con nombre, rgb, cod hexa */
+}
+
+h1{
+    font-family: 'Fira Sans' , sans-serif; /* Si no sabe que tipo usar, Helvetica */
+    color:gray; 
+}
+
+/* selector css */
+/* los id van con # */
+#parrafo1{
+    /* vamos a usar este parrafo para entender el modelo-caja */
+    /* Los elementos de bloque se muestran en una caja. Parrafo en bloque */
+    border: solid 1px black; /* quiero que la caja se haga visible, por eso pongo un borde */
+    text-align: center;
+    padding : 20px; /* "acolchado" - distancia del texto al borde */
+    margin-left: 30px; /* margen entre la caja y el contenedor de la caja */
+    width: 75%; /* ancho total de la caja, puede ser en % o pixeles */
+    position: absolute; /* puedo colocar esta caja donde yo quiera */
+    left: 199px;
+    top: 400px;
+}
+
+em{
+    /* em no es un bloque , en ingles es "in-line" */
+    font-size: larger;
+    font-style: normal;
+}
+ 
